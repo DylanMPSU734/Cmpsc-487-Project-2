@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X_UA-Compatible" , content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> ProductApp</title>
+    <link rel="stylesheet" href="./add.css" />
+    <script src="./add.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1> Add Product</h1>
+
+        <p>
+            <label for=" ProdName">Product</label>
+            <input type="text" id="Product" name="Product" />
+            <lable for="Description">Description of the Product</lable>
+            <textarea id="Description" name="Description" rows="2" cols="50"></textarea>
+            <label for=" ImgLink">Image Link</label>
+            <input type="text" id="ImgLink" name="ImgLink" />
+            <br />
+        </p>
+        <p>
+            <div class="add">
+                <button onclick="add()">Add Product</button>
+            </div>
+            <br />
+        </p>
+
+        <div class="back">
+            <button onclick="back()">Back</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
